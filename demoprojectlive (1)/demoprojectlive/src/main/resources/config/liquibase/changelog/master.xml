@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <!-- Include other changelog files -->
+    <include file="classpath:config/liquibase/changelog/20250106000000_create_service_master.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000001_create_organization_table.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000002_create_organization_history_table.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000003_create_organization_service_table.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000004_create_organization_service_usage_table.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000005_create_user_table.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000006_create_user_history_table.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20250106000007_create_usage_tracking_table.xml" relativeToChangelogFile="false"/>
+
+
+</databaseChangeLog>
